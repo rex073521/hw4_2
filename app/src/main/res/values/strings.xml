@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">hw4_2</string>
+
+    <string name="bmiResult">BMI值為：</string>
+    <string name="answer">結果為：</string>
+    <string name="btnBack">返回</string>
+    <string name="btnOK">確認</string>
+    <string name="btnClean">清除</string>
+    <string name="btnBMI">究竟你是胖還是瘦</string>
+    <string name="btnExit">管他BMI，運動去</string>
+    <string name="txtHeight">請輸入身高：</string>
+    <string name="txtWeight">請輸入體重：</string>
+    <string name="txtExH">例如：180</string>
+    <string name="txtExW">例如：73</string>
+    <string name="bmiOK">BMI在標準範圍，請保持！</string>
+    <string name="bmiThin">BMI過低，要多吃一點喔！</string>
+    <string name="bmiFat">BMI過高，該運動減肥囉！</string>
+    <string name="action_settings">Settings</string>
+</resources>

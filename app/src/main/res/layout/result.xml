@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/txtHeight"
+        android:id="@+id/textView2"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/editTxtH"
+        android:layout_alignStart="@+id/editTxtH" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="@string/txtExH"
+        android:id="@+id/editTxtH"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/txtWeight"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/editTxtH"
+        android:layout_alignLeft="@+id/editTxtH"
+        android:layout_alignStart="@+id/editTxtH"
+        android:layout_marginTop="33dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="@string/txtExW"
+        android:id="@+id/editTxtW"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnOK"
+        android:id="@+id/btnOK"
+        android:layout_below="@+id/editTxtW"
+        android:layout_alignLeft="@+id/btnClean"
+        android:layout_alignStart="@+id/btnClean"
+        android:layout_marginTop="45dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnClean"
+        android:id="@+id/btnClean"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/btnOK"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnBack"
+        android:id="@+id/btnBack"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/btnClean"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
